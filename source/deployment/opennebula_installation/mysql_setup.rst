@@ -18,6 +18,13 @@ Installation
 
 First of all, you need a working MySQL server. You can either deploy one for the OpenNebula installation or reuse any existing MySQL already deployed and accessible by the Front-end.
 
+You can install MySQL using apt-get:
+
+.. code::
+    # apt-get install mysql-server
+
+On setup you will be asked to enter the root password for your MySQL setup, make sure to not lose this password as you will need it for configuiring MySQL to work with OneAdmin.
+
 Configuring MySQL
 -----------------
 
